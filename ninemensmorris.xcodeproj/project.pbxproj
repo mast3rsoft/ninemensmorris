@@ -3,18 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 191A54561E26AA79006F1552 /* exit-icon-3.png */; };
+		1940F03E1E26074C00CCED06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940F03D1E26074C00CCED06 /* FirstViewController.swift */; };
+		195306A81E2B7BEF00EE81B0 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */; };
+		195E730F1E28AB4E005046AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E730E1E28AB4E005046AA /* AppDelegate.swift */; };
+		195E73111E28AB4E005046AA /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E73101E28AB4E005046AA /* TouchViewController.swift */; };
+		195E73141E28AB4E005046AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195E73121E28AB4E005046AA /* Main.storyboard */; };
+		195E73161E28AB4E005046AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195E73151E28AB4E005046AA /* Assets.xcassets */; };
+		195E73191E28AB4E005046AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195E73171E28AB4E005046AA /* LaunchScreen.storyboard */; };
+		195E73241E28AB4E005046AA /* ninemensmorristouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E73231E28AB4E005046AA /* ninemensmorristouchTests.swift */; };
+		195E732F1E28AB4E005046AA /* ninemensmorristouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E732E1E28AB4E005046AA /* ninemensmorristouchUITests.swift */; };
+		195E733B1E28AED4005046AA /* NineMenMorrisViewTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E733A1E28AED4005046AA /* NineMenMorrisViewTouch.swift */; };
+		195E733C1E28AF3E005046AA /* engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332EB021D852C1A000B1AB1 /* engine.swift */; };
+		196DE15C1E203E9D0030F899 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 196DE15B1E203E9D0030F899 /* TODO */; };
+		19B94F911E241F8300EAFC81 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B94F901E241F8300EAFC81 /* SecondViewController.swift */; };
 		2332EAE61D852BB9000B1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */; };
 		2332EAE81D852BB9000B1AB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332EAE71D852BB9000B1AB1 /* ViewController.swift */; };
 		2332EAEA1D852BB9000B1AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2332EAE91D852BB9000B1AB1 /* Assets.xcassets */; };
 		2332EAED1D852BB9000B1AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2332EAEB1D852BB9000B1AB1 /* Main.storyboard */; };
 		2332EAF81D852BB9000B1AB1 /* ninemensmorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332EAF71D852BB9000B1AB1 /* ninemensmorrisTests.swift */; };
+		2332EB031D852C1A000B1AB1 /* engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332EB021D852C1A000B1AB1 /* engine.swift */; };
+		23752A1A1E16D2840020F50F /* NineMensMorrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23752A191E16D2840020F50F /* NineMensMorrisView.swift */; };
+		23F1F3EB1E1CE9E600BB4F6C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F1F3EA1E1CE9E600BB4F6C /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		195E73201E28AB4E005046AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2332EADA1D852BB9000B1AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195E730B1E28AB4E005046AA;
+			remoteInfo = ninemensmorristouch;
+		};
+		195E732B1E28AB4E005046AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2332EADA1D852BB9000B1AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195E730B1E28AB4E005046AA;
+			remoteInfo = ninemensmorristouch;
+		};
 		2332EAF41D852BB9000B1AB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2332EADA1D852BB9000B1AB1 /* Project object */;
@@ -25,6 +56,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191A54561E26AA79006F1552 /* exit-icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-icon-3.png"; path = "../../../Pictures/exit-icon-3.png"; sourceTree = "<group>"; };
+		1940F03D1E26074C00CCED06 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		195E730C1E28AB4E005046AA /* ninemensmorristouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorristouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195E730E1E28AB4E005046AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195E73101E28AB4E005046AA /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		195E73131E28AB4E005046AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195E73151E28AB4E005046AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195E73181E28AB4E005046AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195E731A1E28AB4E005046AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195E731F1E28AB4E005046AA /* ninemensmorristouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninemensmorristouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195E73231E28AB4E005046AA /* ninemensmorristouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninemensmorristouchTests.swift; sourceTree = "<group>"; };
+		195E73251E28AB4E005046AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195E732A1E28AB4E005046AA /* ninemensmorristouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninemensmorristouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195E732E1E28AB4E005046AA /* ninemensmorristouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninemensmorristouchUITests.swift; sourceTree = "<group>"; };
+		195E73301E28AB4E005046AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195E733A1E28AED4005046AA /* NineMenMorrisViewTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineMenMorrisViewTouch.swift; sourceTree = "<group>"; };
+		196DE15B1E203E9D0030F899 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		19B94F901E241F8300EAFC81 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		2332EAE21D852BB9000B1AB1 /* ninemensmorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2332EAE71D852BB9000B1AB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,9 +84,33 @@
 		2332EAF31D852BB9000B1AB1 /* ninemensmorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninemensmorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2332EAF71D852BB9000B1AB1 /* ninemensmorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninemensmorrisTests.swift; sourceTree = "<group>"; };
 		2332EAF91D852BB9000B1AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2332EB021D852C1A000B1AB1 /* engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = engine.swift; path = ../engine.swift; sourceTree = "<group>"; };
+		23752A191E16D2840020F50F /* NineMensMorrisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineMensMorrisView.swift; sourceTree = "<group>"; };
+		23F1F3EA1E1CE9E600BB4F6C /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		195E73091E28AB4E005046AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E731C1E28AB4E005046AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E73271E28AB4E005046AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2332EADF1D852BB9000B1AB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,11 +128,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191A54581E26AA99006F1552 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				191A54561E26AA79006F1552 /* exit-icon-3.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		195E730D1E28AB4E005046AA /* ninemensmorristouch */ = {
+			isa = PBXGroup;
+			children = (
+				195E730E1E28AB4E005046AA /* AppDelegate.swift */,
+				195E73101E28AB4E005046AA /* TouchViewController.swift */,
+				195E73121E28AB4E005046AA /* Main.storyboard */,
+				195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */,
+				195E73151E28AB4E005046AA /* Assets.xcassets */,
+				195E73171E28AB4E005046AA /* LaunchScreen.storyboard */,
+				195E731A1E28AB4E005046AA /* Info.plist */,
+				195E733A1E28AED4005046AA /* NineMenMorrisViewTouch.swift */,
+			);
+			path = ninemensmorristouch;
+			sourceTree = "<group>";
+		};
+		195E73221E28AB4E005046AA /* ninemensmorristouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				195E73231E28AB4E005046AA /* ninemensmorristouchTests.swift */,
+				195E73251E28AB4E005046AA /* Info.plist */,
+			);
+			path = ninemensmorristouchTests;
+			sourceTree = "<group>";
+		};
+		195E732D1E28AB4E005046AA /* ninemensmorristouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195E732E1E28AB4E005046AA /* ninemensmorristouchUITests.swift */,
+				195E73301E28AB4E005046AA /* Info.plist */,
+			);
+			path = ninemensmorristouchUITests;
+			sourceTree = "<group>";
+		};
 		2332EAD91D852BB9000B1AB1 = {
 			isa = PBXGroup;
 			children = (
+				191A54581E26AA99006F1552 /* Assets */,
 				2332EAE41D852BB9000B1AB1 /* ninemensmorris */,
 				2332EAF61D852BB9000B1AB1 /* ninemensmorrisTests */,
+				195E730D1E28AB4E005046AA /* ninemensmorristouch */,
+				195E73221E28AB4E005046AA /* ninemensmorristouchTests */,
+				195E732D1E28AB4E005046AA /* ninemensmorristouchUITests */,
 				2332EAE31D852BB9000B1AB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +187,9 @@
 			children = (
 				2332EAE21D852BB9000B1AB1 /* ninemensmorris.app */,
 				2332EAF31D852BB9000B1AB1 /* ninemensmorrisTests.xctest */,
+				195E730C1E28AB4E005046AA /* ninemensmorristouch.app */,
+				195E731F1E28AB4E005046AA /* ninemensmorristouchTests.xctest */,
+				195E732A1E28AB4E005046AA /* ninemensmorristouchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,10 +197,16 @@
 		2332EAE41D852BB9000B1AB1 /* ninemensmorris */ = {
 			isa = PBXGroup;
 			children = (
+				19B94F901E241F8300EAFC81 /* SecondViewController.swift */,
+				2332EB021D852C1A000B1AB1 /* engine.swift */,
 				2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */,
 				2332EAE71D852BB9000B1AB1 /* ViewController.swift */,
+				196DE15B1E203E9D0030F899 /* TODO */,
 				2332EAE91D852BB9000B1AB1 /* Assets.xcassets */,
 				2332EAEB1D852BB9000B1AB1 /* Main.storyboard */,
+				1940F03D1E26074C00CCED06 /* FirstViewController.swift */,
+				23752A191E16D2840020F50F /* NineMensMorrisView.swift */,
+				23F1F3EA1E1CE9E600BB4F6C /* test.swift */,
 				2332EAEE1D852BB9000B1AB1 /* Info.plist */,
 			);
 			path = ninemensmorris;
@@ -96,6 +224,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		195E730B1E28AB4E005046AA /* ninemensmorristouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195E73371E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouch" */;
+			buildPhases = (
+				195E73081E28AB4E005046AA /* Sources */,
+				195E73091E28AB4E005046AA /* Frameworks */,
+				195E730A1E28AB4E005046AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ninemensmorristouch;
+			productName = ninemensmorristouch;
+			productReference = 195E730C1E28AB4E005046AA /* ninemensmorristouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195E731E1E28AB4E005046AA /* ninemensmorristouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195E73381E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouchTests" */;
+			buildPhases = (
+				195E731B1E28AB4E005046AA /* Sources */,
+				195E731C1E28AB4E005046AA /* Frameworks */,
+				195E731D1E28AB4E005046AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195E73211E28AB4E005046AA /* PBXTargetDependency */,
+			);
+			name = ninemensmorristouchTests;
+			productName = ninemensmorristouchTests;
+			productReference = 195E731F1E28AB4E005046AA /* ninemensmorristouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		195E73291E28AB4E005046AA /* ninemensmorristouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195E73391E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouchUITests" */;
+			buildPhases = (
+				195E73261E28AB4E005046AA /* Sources */,
+				195E73271E28AB4E005046AA /* Frameworks */,
+				195E73281E28AB4E005046AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195E732C1E28AB4E005046AA /* PBXTargetDependency */,
+			);
+			name = ninemensmorristouchUITests;
+			productName = ninemensmorristouchUITests;
+			productReference = 195E732A1E28AB4E005046AA /* ninemensmorristouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2332EAE11D852BB9000B1AB1 /* ninemensmorris */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2332EAFC1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorris" */;
@@ -137,21 +318,42 @@
 		2332EADA1D852BB9000B1AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = pinbeutel;
 				TargetAttributes = {
+					195E730B1E28AB4E005046AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YN9Y656UY;
+						ProvisioningStyle = Automatic;
+					};
+					195E731E1E28AB4E005046AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YN9Y656UY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 195E730B1E28AB4E005046AA;
+					};
+					195E73291E28AB4E005046AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YN9Y656UY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 195E730B1E28AB4E005046AA;
+					};
 					2332EAE11D852BB9000B1AB1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4YN9Y656UY;
+						LastSwiftMigration = 0800;
 					};
 					2332EAF21D852BB9000B1AB1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4YN9Y656UY;
+						LastSwiftMigration = 0800;
 						TestTargetID = 2332EAE11D852BB9000B1AB1;
 					};
 				};
 			};
 			buildConfigurationList = 2332EADD1D852BB9000B1AB1 /* Build configuration list for PBXProject "ninemensmorris" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -165,16 +367,45 @@
 			targets = (
 				2332EAE11D852BB9000B1AB1 /* ninemensmorris */,
 				2332EAF21D852BB9000B1AB1 /* ninemensmorrisTests */,
+				195E730B1E28AB4E005046AA /* ninemensmorristouch */,
+				195E731E1E28AB4E005046AA /* ninemensmorristouchTests */,
+				195E73291E28AB4E005046AA /* ninemensmorristouchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		195E730A1E28AB4E005046AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E73191E28AB4E005046AA /* LaunchScreen.storyboard in Resources */,
+				195E73161E28AB4E005046AA /* Assets.xcassets in Resources */,
+				195E73141E28AB4E005046AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E731D1E28AB4E005046AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E73281E28AB4E005046AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2332EAE01D852BB9000B1AB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196DE15C1E203E9D0030F899 /* TODO in Resources */,
 				2332EAEA1D852BB9000B1AB1 /* Assets.xcassets in Resources */,
+				191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */,
 				2332EAED1D852BB9000B1AB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,12 +420,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		195E73081E28AB4E005046AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E73111E28AB4E005046AA /* TouchViewController.swift in Sources */,
+				195E733C1E28AF3E005046AA /* engine.swift in Sources */,
+				195E733B1E28AED4005046AA /* NineMenMorrisViewTouch.swift in Sources */,
+				195E730F1E28AB4E005046AA /* AppDelegate.swift in Sources */,
+				195306A81E2B7BEF00EE81B0 /* StartScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E731B1E28AB4E005046AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E73241E28AB4E005046AA /* ninemensmorristouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195E73261E28AB4E005046AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E732F1E28AB4E005046AA /* ninemensmorristouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2332EADE1D852BB9000B1AB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B94F911E241F8300EAFC81 /* SecondViewController.swift in Sources */,
 				2332EAE81D852BB9000B1AB1 /* ViewController.swift in Sources */,
 				2332EAE61D852BB9000B1AB1 /* AppDelegate.swift in Sources */,
+				2332EB031D852C1A000B1AB1 /* engine.swift in Sources */,
+				23F1F3EB1E1CE9E600BB4F6C /* test.swift in Sources */,
+				23752A1A1E16D2840020F50F /* NineMensMorrisView.swift in Sources */,
+				1940F03E1E26074C00CCED06 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +473,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		195E73211E28AB4E005046AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195E730B1E28AB4E005046AA /* ninemensmorristouch */;
+			targetProxy = 195E73201E28AB4E005046AA /* PBXContainerItemProxy */;
+		};
+		195E732C1E28AB4E005046AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195E730B1E28AB4E005046AA /* ninemensmorristouch */;
+			targetProxy = 195E732B1E28AB4E005046AA /* PBXContainerItemProxy */;
+		};
 		2332EAF51D852BB9000B1AB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2332EAE11D852BB9000B1AB1 /* ninemensmorris */;
@@ -217,6 +491,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		195E73121E28AB4E005046AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195E73131E28AB4E005046AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195E73171E28AB4E005046AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195E73181E28AB4E005046AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		2332EAEB1D852BB9000B1AB1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -228,6 +518,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		195E73311E28AB4E005046AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195E73321E28AB4E005046AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195E73331E28AB4E005046AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninemensmorristouch.app/ninemensmorristouch";
+			};
+			name = Debug;
+		};
+		195E73341E28AB4E005046AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninemensmorristouch.app/ninemensmorristouch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195E73351E28AB4E005046AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouchUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ninemensmorristouch;
+			};
+			name = Debug;
+		};
+		195E73361E28AB4E005046AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ninemensmorristouchUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ninemensmorristouch;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2332EAFA1D852BB9000B1AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -242,13 +642,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer: niko.neufeld@gmail.com (7JZBRXH545)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4YN9Y656UY;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -270,6 +673,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -287,13 +691,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer: niko.neufeld@gmail.com (7JZBRXH545)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4YN9Y656UY;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -307,6 +714,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 			};
 			name = Release;
 		};
@@ -319,6 +728,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pinbeutel.ninemensmorris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -331,6 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pinbeutel.ninemensmorris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -343,6 +754,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pinbeutel.ninemensmorrisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninemensmorris.app/Contents/MacOS/ninemensmorris";
 			};
 			name = Debug;
@@ -356,6 +768,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pinbeutel.ninemensmorrisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninemensmorris.app/Contents/MacOS/ninemensmorris";
 			};
 			name = Release;
@@ -363,6 +776,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		195E73371E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195E73311E28AB4E005046AA /* Debug */,
+				195E73321E28AB4E005046AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195E73381E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195E73331E28AB4E005046AA /* Debug */,
+				195E73341E28AB4E005046AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195E73391E28AB4E005046AA /* Build configuration list for PBXNativeTarget "ninemensmorristouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195E73351E28AB4E005046AA /* Debug */,
+				195E73361E28AB4E005046AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2332EADD1D852BB9000B1AB1 /* Build configuration list for PBXProject "ninemensmorris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -379,6 +819,7 @@
 				2332EAFE1D852BB9000B1AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2332EAFF1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorrisTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +828,7 @@
 				2332EB011D852BB9000B1AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

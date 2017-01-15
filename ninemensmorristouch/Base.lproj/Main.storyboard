@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2v6-Ar-a9I">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nine Men's Morris-->
+        <scene sceneID="XCw-9D-3uj">
+            <objects>
+                <viewController title="Nine Men's Morris" id="WGL-vU-JZc" customClass="TouchViewController" customModule="ninemensmorristouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yf1-kQ-pLP"/>
+                        <viewControllerLayoutGuide type="bottom" id="BAz-xG-wdc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zVD-SM-4LG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1w-aW-RyI">
+                                <rect key="frame" x="24" y="20" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54N-O6-8jL">
+                                <rect key="frame" x="85" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEz-4F-DkO">
+                                <rect key="frame" x="135" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xp-4i-7ye">
+                                <rect key="frame" x="185" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbU-nK-Vjk">
+                                <rect key="frame" x="325" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Sk5-Qb-6kw" customClass="NineMensMorrisViewTouch" customModule="ninemensmorristouch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="49" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EF3-UH-z8I" appends="YES" id="HQw-d1-e9d"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sk5-Qb-6kw" firstAttribute="bottom" secondItem="BAz-xG-wdc" secondAttribute="top" id="1v3-zr-HcS"/>
+                            <constraint firstItem="MEz-4F-DkO" firstAttribute="baseline" secondItem="1xp-4i-7ye" secondAttribute="baseline" id="54A-o3-YpM"/>
+                            <constraint firstAttribute="trailing" secondItem="Sk5-Qb-6kw" secondAttribute="trailing" id="A8y-Gi-Q1m"/>
+                            <constraint firstItem="1xp-4i-7ye" firstAttribute="baseline" secondItem="jbU-nK-Vjk" secondAttribute="baseline" id="AuO-fB-SrL"/>
+                            <constraint firstItem="Sk5-Qb-6kw" firstAttribute="top" secondItem="W1w-aW-RyI" secondAttribute="bottom" constant="8" symbolic="YES" id="Pei-xS-oWB"/>
+                            <constraint firstItem="W1w-aW-RyI" firstAttribute="leading" secondItem="zVD-SM-4LG" secondAttribute="leadingMargin" constant="8" id="dGu-4a-ZXP"/>
+                            <constraint firstItem="Sk5-Qb-6kw" firstAttribute="leading" secondItem="zVD-SM-4LG" secondAttribute="leading" id="h4R-WR-4fD"/>
+                            <constraint firstItem="54N-O6-8jL" firstAttribute="leading" secondItem="W1w-aW-RyI" secondAttribute="trailing" constant="16" id="keF-kK-df8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jbU-nK-Vjk" secondAttribute="trailing" constant="-8" id="mDV-6I-ctR"/>
+                            <constraint firstItem="W1w-aW-RyI" firstAttribute="baseline" secondItem="54N-O6-8jL" secondAttribute="baseline" id="oc8-XL-OfE"/>
+                            <constraint firstItem="W1w-aW-RyI" firstAttribute="top" secondItem="Yf1-kQ-pLP" secondAttribute="bottom" id="wfW-fs-QKH"/>
+                            <constraint firstItem="MEz-4F-DkO" firstAttribute="leading" secondItem="54N-O6-8jL" secondAttribute="trailing" constant="8" symbolic="YES" id="yGs-WZ-CKM"/>
+                            <constraint firstItem="54N-O6-8jL" firstAttribute="baseline" secondItem="MEz-4F-DkO" secondAttribute="baseline" id="zQd-wO-Rft"/>
+                            <constraint firstItem="1xp-4i-7ye" firstAttribute="leading" secondItem="MEz-4F-DkO" secondAttribute="trailing" constant="8" symbolic="YES" id="zit-aK-VeB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blackLabel" destination="jbU-nK-Vjk" id="8zs-7r-NdD"/>
+                        <outlet property="board" destination="Sk5-Qb-6kw" id="S9A-Yf-pzV"/>
+                        <outlet property="moveLabel" destination="54N-O6-8jL" id="wQH-5z-tKu"/>
+                        <outlet property="statusLabel" destination="1xp-4i-7ye" id="0Kj-64-Qee"/>
+                        <outlet property="timeLabel" destination="MEz-4F-DkO" id="UkR-MR-0l5"/>
+                        <outlet property="whiteLabel" destination="W1w-aW-RyI" id="cWi-sC-BcE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YhM-kZ-Enb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="EF3-UH-z8I">
+                    <connections>
+                        <action selector="tap1:" destination="WGL-vU-JZc" id="2r9-rZ-JzM"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-452" y="120.98950524737631"/>
+        </scene>
+        <!--Nine Men's Morris-->
+        <scene sceneID="Km4-5M-mlg">
+            <objects>
+                <viewController title="Nine Men's Morris" id="2v6-Ar-a9I" customClass="StartScreenViewController" customModule="ninemensmorristouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T6t-Zo-Vop"/>
+                        <viewControllerLayoutGuide type="bottom" id="UPM-4j-189"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cOJ-vO-Rhk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CXn-GS-iGr">
+                                <rect key="frame" x="127" y="537" width="121" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="White"/>
+                                    <segment title="Black"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose color to start game" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtC-an-LOj">
+                                <rect key="frame" x="83" y="455" width="209" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhP-cI-GB6">
+                                <rect key="frame" x="149" y="589" width="76" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="pushPlay:" destination="2v6-Ar-a9I" eventType="touchUpInside" id="eEm-Sa-E5b"/>
+                                    <segue destination="WGL-vU-JZc" kind="show" id="Inx-pi-U1X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="chooser" destination="CXn-GS-iGr" id="oy4-3h-7Zc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBS-Xb-wfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="444.82758620689657"/>
+        </scene>
+    </scenes>
+</document>

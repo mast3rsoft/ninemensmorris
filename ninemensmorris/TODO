@@ -1,0 +1,17 @@
+Plans for Nine Men's Morris
+
+* Start / Color selection screen / Game Over & restart (story board with segues
+* Main screen. Add time. Add last computer move. Add names (player, hostname)
+* DONE: Auto-size (resize to wished size, symmetric, resize in container)
+* Add additional thread for game-engine
+* Add detection for double jeopardy, look for two-in-a-rows with one shared field
+* Add adaptive depth (as a log of the number of moves)
+* Add breadth-first search option (work with depth of 1 to expand all children and then go on)
+* Re-write to use boards instead of moves (use characters)
+* Add detection of mirrored boards
+* Add detection of rotated boards
+* Convert for iPhone and touch
+* Add alpha beta pruning
+* Test jump mode
+* Add difficulty meter / time / depth / positions
+* Add history / undo functionality / remove unused tree elements
