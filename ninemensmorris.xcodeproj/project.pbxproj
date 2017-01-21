@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1902E9571E30024B00507E18 /* exit-icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 191A54561E26AA79006F1552 /* exit-icon-3.png */; };
+		1902EA291E309C8300507E18 /* exit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA281E309C8300507E18 /* exit-icon.png */; };
+		1902EA2A1E309C8300507E18 /* exit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA281E309C8300507E18 /* exit-icon.png */; };
+		1902EA2C1E309CE300507E18 /* exit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA2B1E309CE300507E18 /* exit-icon.png */; };
+		1902EA2D1E309CE300507E18 /* exit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA2B1E309CE300507E18 /* exit-icon.png */; };
+		1902EA321E31469E00507E18 /* undo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA311E31469E00507E18 /* undo-icon.png */; };
+		1902EA331E31469E00507E18 /* undo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA311E31469E00507E18 /* undo-icon.png */; };
+		1902EA381E33684000507E18 /* mastersoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA371E33684000507E18 /* mastersoft-logo.png */; };
+		1902EA391E33684000507E18 /* mastersoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA371E33684000507E18 /* mastersoft-logo.png */; };
 		191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 191A54561E26AA79006F1552 /* exit-icon-3.png */; };
 		1940F03E1E26074C00CCED06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940F03D1E26074C00CCED06 /* FirstViewController.swift */; };
 		195306A81E2B7BEF00EE81B0 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */; };
@@ -56,6 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1902EA281E309C8300507E18 /* exit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-icon.png"; path = "../../../Pictures/exit-icon.png"; sourceTree = "<group>"; };
+		1902EA2B1E309CE300507E18 /* exit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit-icon.png"; sourceTree = "<group>"; };
+		1902EA311E31469E00507E18 /* undo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo-icon.png"; sourceTree = "<group>"; };
+		1902EA371E33684000507E18 /* mastersoft-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastersoft-logo.png"; sourceTree = "<group>"; };
 		191A54561E26AA79006F1552 /* exit-icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-icon-3.png"; path = "../../../Pictures/exit-icon-3.png"; sourceTree = "<group>"; };
 		1940F03D1E26074C00CCED06 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +88,7 @@
 		195E733A1E28AED4005046AA /* NineMenMorrisViewTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineMenMorrisViewTouch.swift; sourceTree = "<group>"; };
 		196DE15B1E203E9D0030F899 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		19B94F901E241F8300EAFC81 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
-		2332EAE21D852BB9000B1AB1 /* ninemensmorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2332EAE21D852BB9000B1AB1 /* ninemensmorrisosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorrisosx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2332EAE71D852BB9000B1AB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2332EAE91D852BB9000B1AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,7 +144,11 @@
 		191A54581E26AA99006F1552 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1902EA2B1E309CE300507E18 /* exit-icon.png */,
+				1902EA311E31469E00507E18 /* undo-icon.png */,
+				1902EA281E309C8300507E18 /* exit-icon.png */,
 				191A54561E26AA79006F1552 /* exit-icon-3.png */,
+				1902EA371E33684000507E18 /* mastersoft-logo.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -185,7 +202,7 @@
 		2332EAE31D852BB9000B1AB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2332EAE21D852BB9000B1AB1 /* ninemensmorris.app */,
+				2332EAE21D852BB9000B1AB1 /* ninemensmorrisosx.app */,
 				2332EAF31D852BB9000B1AB1 /* ninemensmorrisTests.xctest */,
 				195E730C1E28AB4E005046AA /* ninemensmorristouch.app */,
 				195E731F1E28AB4E005046AA /* ninemensmorristouchTests.xctest */,
@@ -277,9 +294,9 @@
 			productReference = 195E732A1E28AB4E005046AA /* ninemensmorristouchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		2332EAE11D852BB9000B1AB1 /* ninemensmorris */ = {
+		2332EAE11D852BB9000B1AB1 /* ninemensmorrisosx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2332EAFC1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorris" */;
+			buildConfigurationList = 2332EAFC1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorrisosx" */;
 			buildPhases = (
 				2332EADE1D852BB9000B1AB1 /* Sources */,
 				2332EADF1D852BB9000B1AB1 /* Frameworks */,
@@ -289,9 +306,9 @@
 			);
 			dependencies = (
 			);
-			name = ninemensmorris;
+			name = ninemensmorrisosx;
 			productName = ninemensmorris;
-			productReference = 2332EAE21D852BB9000B1AB1 /* ninemensmorris.app */;
+			productReference = 2332EAE21D852BB9000B1AB1 /* ninemensmorrisosx.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2332EAF21D852BB9000B1AB1 /* ninemensmorrisTests */ = {
@@ -324,8 +341,8 @@
 				TargetAttributes = {
 					195E730B1E28AB4E005046AA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4YN9Y656UY;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = N67RB227UH;
+						ProvisioningStyle = Manual;
 					};
 					195E731E1E28AB4E005046AA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -365,7 +382,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2332EAE11D852BB9000B1AB1 /* ninemensmorris */,
+				2332EAE11D852BB9000B1AB1 /* ninemensmorrisosx */,
 				2332EAF21D852BB9000B1AB1 /* ninemensmorrisTests */,
 				195E730B1E28AB4E005046AA /* ninemensmorristouch */,
 				195E731E1E28AB4E005046AA /* ninemensmorristouchTests */,
@@ -379,8 +396,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1902EA2D1E309CE300507E18 /* exit-icon.png in Resources */,
 				195E73191E28AB4E005046AA /* LaunchScreen.storyboard in Resources */,
 				195E73161E28AB4E005046AA /* Assets.xcassets in Resources */,
+				1902EA2A1E309C8300507E18 /* exit-icon.png in Resources */,
+				1902EA391E33684000507E18 /* mastersoft-logo.png in Resources */,
+				1902E9571E30024B00507E18 /* exit-icon-3.png in Resources */,
+				1902EA331E31469E00507E18 /* undo-icon.png in Resources */,
 				195E73141E28AB4E005046AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,9 +425,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1902EA2C1E309CE300507E18 /* exit-icon.png in Resources */,
 				196DE15C1E203E9D0030F899 /* TODO in Resources */,
 				2332EAEA1D852BB9000B1AB1 /* Assets.xcassets in Resources */,
+				1902EA291E309C8300507E18 /* exit-icon.png in Resources */,
+				1902EA381E33684000507E18 /* mastersoft-logo.png in Resources */,
 				191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */,
+				1902EA321E31469E00507E18 /* undo-icon.png in Resources */,
 				2332EAED1D852BB9000B1AB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,7 +511,7 @@
 		};
 		2332EAF51D852BB9000B1AB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2332EAE11D852BB9000B1AB1 /* ninemensmorris */;
+			target = 2332EAE11D852BB9000B1AB1 /* ninemensmorrisosx */;
 			targetProxy = 2332EAF41D852BB9000B1AB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -523,12 +549,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = N67RB227UH;
 				INFOPLIST_FILE = ninemensmorristouch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d971318-11e0-4141-9d82-2c57ee43a1a1";
+				PROVISIONING_PROFILE_SPECIFIER = ninemensmorristouch;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
@@ -541,12 +570,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = N67RB227UH;
 				INFOPLIST_FILE = ninemensmorristouch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorristouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.ninemensmorris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d971318-11e0-4141-9d82-2c57ee43a1a1";
+				PROVISIONING_PROFILE_SPECIFIER = ninemensmorristouch;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -812,7 +844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2332EAFC1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorris" */ = {
+		2332EAFC1D852BB9000B1AB1 /* Build configuration list for PBXNativeTarget "ninemensmorrisosx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2332EAFD1D852BB9000B1AB1 /* Debug */,

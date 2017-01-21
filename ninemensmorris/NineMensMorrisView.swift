@@ -39,7 +39,7 @@ let stoneCoord: [Field: [Int]] = [
 class NineMensMorrisView: NSView {
     @IBInspectable var circleRad: CGFloat = 10.0 {
         didSet {
-            self.computeCentres()
+            _ = self.computeCentres()
             self.needsDisplay = true
         }
     }
@@ -53,12 +53,12 @@ class NineMensMorrisView: NSView {
     @IBInspectable var lineWidth: CGFloat = 5.0
     var xOff: CGFloat = 130.0 {
         didSet {
-            self.computeCentres()
+           _ = self.computeCentres()
         }
     }
     var yOff: CGFloat = 80.0 {
         didSet {
-            self.computeCentres()
+           _ = self.computeCentres()
         }
     }
     lazy var centrePoint: [CGPoint] = self.computeCentres()

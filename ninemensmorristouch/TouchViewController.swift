@@ -8,9 +8,10 @@
 
 import UIKit
 import Dispatch
+import Foundation
 
 class TouchViewController: UIViewController {
-
+    let quitAlert = UIAlertController()
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -28,6 +29,8 @@ class TouchViewController: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var moveLabel: UILabel!
     @IBOutlet weak var board: NineMensMorrisViewTouch!
+    var timeElapsed = 0
+    var timer: Timer!
     var state: GameState = .MoveTo
     var model = Engine(player: .White)
     var lastField: Field = .OffBoard
@@ -37,15 +40,57 @@ class TouchViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         if model.computer == .White {
-            whiteLabel.text = "Computer"
-            blackLabel.text = NSUserName()
+            whiteLabel.text = UIDevice.current.model
+            blackLabel.text = "Player"
             computerMoveDispatch()
         } else {
-            blackLabel.text = "Computer"
-            blackLabel.text = NSUserName()
+            blackLabel.text = UIDevice.current.model
+            whiteLabel.text = "Player"
         }
-    }
+        statusLabel.text = "Game started"
+        let cancelExit = UIAlertAction(title: "Cancel", style: .cancel, handler: self.cancelExitHandler)
+        let quitExit = UIAlertAction(title: "Quit", style: .default, handler: self.quitExitHandler)
+        quitAlert.addAction(cancelExit)
+        quitAlert.addAction(quitExit)
  
+        quitAlert.preferredAction = cancelExit
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true,
+                                     block: {(t: Timer) -> Void in
+                                        self.timeLabel.text = String(format: "%02d:%02d",
+                                        self.timeElapsed / 60, self.timeElapsed % 60)
+                                        self.timeElapsed += 1})
+
+    }
+    func cancelExitHandler(_ sender: UIAlertAction) {
+        print("user cancelled")
+        
+    }
+    func quitExitHandler(_ sender: UIAlertAction) {
+        print("user wants really, really to quit")
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    @IBAction func undo(_ sender: UIButton) {
+        if state == .WaitForComputer {
+            return
+        }
+        model.undoLastPlayerMove()
+        board.board = model.board
+        moveLabel.text = "move: \(model.nMove)"
+    }
+    @IBAction func quit(_ sender: UIButton) {
+        //quitAlert.title = "warning"
+        if self.state == .GameOver {
+            self.dismiss(animated: true, completion: nil)
+        }
+        quitAlert.message = "Are you sure to quit the game?"
+        
+        self.present(quitAlert, animated: false, completion: nil)
+        quitAlert.popoverPresentationController?.sourceView = self.view // needed  for iPad
+        quitAlert.popoverPresentationController?.sourceRect =  CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 100) //.view.bounds // needed for iPad
+        //quitAlert.present(self, animated: true, completion: nil)
+        
+    }
 //   @IBAction func exitFunc(_ sender: NSButton) {
 //      self.dismissViewController(self)
 //  }
@@ -78,14 +123,18 @@ class TouchViewController: UIViewController {
         } else {
             state = .MoveFrom
         }
+        moveLabel.text = "move: \(model.nMove)"
     }
     func computerWins() {
-        print("Computer wins! Needs implementation")
+        statusLabel.text = "\(model.computer == .White ? "White" : "Black") wins"
+        state = .GameOver
     }
     func playerWins() {
-        print("Player wins! Needs implementation")
+        statusLabel.text = "\(model.player == .White ? "White" : "Black") wins"
+        state = .GameOver
     }
     func computerMoveDispatch() {
+        moveLabel.text = "move: \(model.nMove)"
         state = .WaitForComputer
         board.highLighted.removeAll()
         queue.async {
@@ -179,6 +228,8 @@ class TouchViewController: UIViewController {
             }
         case .WaitForComputer:
             print("Please wait...")
+        case .GameOver:
+            return
         }
     }
 

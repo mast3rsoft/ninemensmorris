@@ -10,8 +10,20 @@ Plans for Nine Men's Morris
 * Re-write to use boards instead of moves (use characters)
 * Add detection of mirrored boards
 * Add detection of rotated boards
-* Convert for iPhone and touch
+* DONE: Convert for iPhone and touch
 * Add alpha beta pruning
 * Test jump mode
 * Add difficulty meter / time / depth / positions
 * Add history / undo functionality / remove unused tree elements
+* Add debug function for printing out position in correct syntax for unit tests
+* Add animation using SpriteKit
+* Add pictures for Stones
+* Add sound
+* Add Webpage / documentation on Mast3rsoft / Add Blog
+* Make storage more efficient
+* Add gesture for movement on iOS (drag)
+* Add animation to show computer move
+* Add recall of last computer move
+* Separate UI logic from UI (state machine to reuse between iOS and OS-X)
+* Add Icon for iOS
+* Submit on AppleStore

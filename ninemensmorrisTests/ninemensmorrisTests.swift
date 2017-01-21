@@ -183,9 +183,9 @@ class ninemensmorrisTests: XCTestCase {
         let engine = Engine()
         do {
             try engine.playerMove(Move(from: .OffBoard, to: .MidTopMid))
-            engine.computerMove()
+            _ = engine.computerMove()
             try engine.playerMove(Move(from: .OffBoard, to: .MidTopLeft))
-            engine.computerMove()
+            _ = engine.computerMove()
         } catch {
             NSLog("couldn't move")
         }
@@ -198,7 +198,7 @@ class ninemensmorrisTests: XCTestCase {
         let engine = Engine()
         do {
             try engine.playerMove(Move(from: .OffBoard, to: .OutBotLeft))
-            engine.computerMove()
+            _ = engine.computerMove()
             try engine.playerMove(Move(from: .OffBoard, to: .OutBotMid))
         } catch {
            NSLog("Illegal player move!")

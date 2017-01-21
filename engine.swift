@@ -22,7 +22,7 @@ import Foundation
 //      |       |       |
 //      6-------5-------4
 enum GameState {
-    case MoveFrom, MoveTo, Take, WaitForComputer
+    case MoveFrom, MoveTo, Take, WaitForComputer, GameOver
 }
 
 enum NineMenMorrisError: Error {
@@ -115,12 +115,14 @@ class Position {
     var nextMove = [Move]() // could remove here and make local
     var nextPos = [Position]()
     var same: Position?
+    var parent: Position?
     var stonesLeft = [ 0, 0 ]
     var nMoves: UInt32 = 0  // number of moves played (made of two half-moves)
     init (move: Move) {
         self.move = move
     }
     init (move: Move, old: Position, player: Color) {
+        parent = old
         self.move = move
         nMoves = old.nMoves + 1
         stonesLeft[0] = old.stonesLeft[0] - ((move.take != nil && player == Color.Black) ? 1 : 0)
@@ -142,6 +144,16 @@ class Engine {
     var current = Position(move: Move(from: .OffBoard, to: .OffBoard))
     init(player: Color = .White) {
         startGame(player: player)
+    }
+    func undoLastPlayerMove() {
+        if current.parent != nil {
+            undoMove(move: current.move, player: computer)
+            current = current.parent!
+        }
+        if current.parent != nil {
+            undoMove(move: current.move, player: player)
+            current = current.parent!
+        }
     }
     func equalMoves(_ m1: Move, _ m2: Move) -> Bool {
         return (m1.from == m2.from) && (m1.to == m2.to) && (m1.take == m2.take)
