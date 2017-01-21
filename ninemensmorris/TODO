@@ -1,9 +1,9 @@
 Plans for Nine Men's Morris
 
-* Start / Color selection screen / Game Over & restart (story board with segues
-* Main screen. Add time. Add last computer move. Add names (player, hostname)
+* DONE: Start / Color selection screen / Game Over & restart (story board with segues
+* DONE: Main screen. Add time. Add last computer move. Add names (player, hostname)
 * DONE: Auto-size (resize to wished size, symmetric, resize in container)
-* Add additional thread for game-engine
+* DONE: additional thread for game-engine
 * Add detection for double jeopardy, look for two-in-a-rows with one shared field
 * Add adaptive depth (as a log of the number of moves)
 * Add breadth-first search option (work with depth of 1 to expand all children and then go on)
@@ -14,16 +14,17 @@ Plans for Nine Men's Morris
 * Add alpha beta pruning
 * Test jump mode
 * Add difficulty meter / time / depth / positions
-* Add history / undo functionality / remove unused tree elements
+* Add history / remove unused tree elements
+* DONE add undo
 * Add debug function for printing out position in correct syntax for unit tests
-* Add animation using SpriteKit
 * Add pictures for Stones
 * Add sound
 * Add Webpage / documentation on Mast3rsoft / Add Blog
 * Make storage more efficient
 * Add gesture for movement on iOS (drag)
-* Add animation to show computer move
+* Add animation to show computer move, SpriteKit?
 * Add recall of last computer move
 * Separate UI logic from UI (state machine to reuse between iOS and OS-X)
-* Add Icon for iOS
-* Submit on AppleStore
+* DONE: Add Icon for iOS
+* DONE: Submit on AppleStore
+* Add instructions for game

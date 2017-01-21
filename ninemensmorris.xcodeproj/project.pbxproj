@@ -86,7 +86,7 @@
 		195E732E1E28AB4E005046AA /* ninemensmorristouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninemensmorristouchUITests.swift; sourceTree = "<group>"; };
 		195E73301E28AB4E005046AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		195E733A1E28AED4005046AA /* NineMenMorrisViewTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineMenMorrisViewTouch.swift; sourceTree = "<group>"; };
-		196DE15B1E203E9D0030F899 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		196DE15B1E203E9D0030F899 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO; path = ninemensmorris/TODO; sourceTree = "<group>"; };
 		19B94F901E241F8300EAFC81 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		2332EAE21D852BB9000B1AB1 /* ninemensmorrisosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorrisosx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +189,7 @@
 		2332EAD91D852BB9000B1AB1 = {
 			isa = PBXGroup;
 			children = (
+				196DE15B1E203E9D0030F899 /* TODO */,
 				191A54581E26AA99006F1552 /* Assets */,
 				2332EAE41D852BB9000B1AB1 /* ninemensmorris */,
 				2332EAF61D852BB9000B1AB1 /* ninemensmorrisTests */,
@@ -218,7 +219,6 @@
 				2332EB021D852C1A000B1AB1 /* engine.swift */,
 				2332EAE51D852BB9000B1AB1 /* AppDelegate.swift */,
 				2332EAE71D852BB9000B1AB1 /* ViewController.swift */,
-				196DE15B1E203E9D0030F899 /* TODO */,
 				2332EAE91D852BB9000B1AB1 /* Assets.xcassets */,
 				2332EAEB1D852BB9000B1AB1 /* Main.storyboard */,
 				1940F03D1E26074C00CCED06 /* FirstViewController.swift */,
