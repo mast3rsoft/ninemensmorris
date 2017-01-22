@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2v6-Ar-a9I">
-    <device id="ipad9_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="splitview1_3"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -18,32 +18,32 @@
                         <viewControllerLayoutGuide type="bottom" id="BAz-xG-wdc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zVD-SM-4LG">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Sk5-Qb-6kw" customClass="NineMensMorrisViewTouch" customModule="ninemensmorristouch" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="999" text="Move:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="80" translatesAutoresizingMaskIntoConstraints="NO" id="54N-O6-8jL">
-                                        <rect key="frame" x="314.5" y="16.5" width="34.5" height="15"/>
+                                        <rect key="frame" x="118" y="16.5" width="34.5" height="15"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Game started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1xp-4i-7ye">
-                                        <rect key="frame" x="419.5" y="16" width="293.5" height="16"/>
+                                        <rect key="frame" x="223" y="16" width="97" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbU-nK-Vjk">
-                                        <rect key="frame" x="729" y="16" width="31" height="15.5"/>
+                                        <rect key="frame" x="336" y="16" width="31" height="15.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvW-Vt-GoG">
-                                        <rect key="frame" x="713" y="969" width="47" height="47"/>
+                                        <rect key="frame" x="320" y="969" width="47" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="47" id="VP2-w4-3sL"/>
                                             <constraint firstAttribute="width" constant="47" id="eSA-uH-JEN"/>
@@ -56,7 +56,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEz-4F-DkO">
-                                        <rect key="frame" x="364.5" y="15.5" width="39" height="17"/>
+                                        <rect key="frame" x="168" y="15.5" width="39" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="39" id="v5N-n6-XnR"/>
                                         </constraints>
@@ -65,13 +65,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="700" text="White" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1w-aW-RyI">
-                                        <rect key="frame" x="8" y="16" width="298.5" height="15.5"/>
+                                        <rect key="frame" x="8" y="16" width="102" height="15.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmA-ue-Tqm">
-                                        <rect key="frame" x="658" y="969" width="47" height="47"/>
+                                        <rect key="frame" x="265" y="969" width="47" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="MUw-3Y-u1h"/>
                                             <constraint firstAttribute="width" constant="47" id="ai3-lQ-xQW"/>
@@ -150,11 +150,11 @@
                         <viewControllerLayoutGuide type="bottom" id="UPM-4j-189"/>
                     </layoutGuides>
                     <view key="view" contentMode="center" id="cOJ-vO-Rhk">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CXn-GS-iGr">
-                                <rect key="frame" x="324" y="894" width="121" height="29"/>
+                                <rect key="frame" x="127.5" y="894" width="121" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="M0L-QJ-SSI"/>
                                 </constraints>
@@ -164,7 +164,7 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhP-cI-GB6">
-                                <rect key="frame" x="346" y="946" width="76" height="58"/>
+                                <rect key="frame" x="149.5" y="946" width="76" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="D5Z-K9-Dhh"/>
                                     <constraint firstAttribute="width" constant="76" id="VCW-Df-Xto"/>
@@ -177,26 +177,34 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your color" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtC-an-LOj">
-                                <rect key="frame" x="314" y="501.5" width="140" height="21"/>
+                                <rect key="frame" x="117.5" y="501.5" width="140" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nine Men's Morris" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtQ-ST-wRf">
-                                <rect key="frame" x="269" y="434.5" width="230" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Nine Men's Morris" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtQ-ST-wRf">
+                                <rect key="frame" x="72.5" y="434.5" width="230" height="40"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="masteroft-logo-original copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="jWI-mB-bzL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="434.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="jWI-mB-bzL" firstAttribute="centerX" secondItem="cOJ-vO-Rhk" secondAttribute="centerX" id="BUL-q2-IiD"/>
+                            <constraint firstAttribute="trailing" secondItem="jWI-mB-bzL" secondAttribute="trailing" id="DKi-bx-9eS"/>
                             <constraint firstItem="CXn-GS-iGr" firstAttribute="centerX" secondItem="IhP-cI-GB6" secondAttribute="centerX" id="FEM-mx-4aJ"/>
                             <constraint firstItem="LtC-an-LOj" firstAttribute="top" secondItem="NtQ-ST-wRf" secondAttribute="bottom" constant="27" id="L2T-s8-BYn"/>
+                            <constraint firstItem="jWI-mB-bzL" firstAttribute="top" secondItem="cOJ-vO-Rhk" secondAttribute="top" id="OHj-4a-h0D"/>
                             <constraint firstItem="IhP-cI-GB6" firstAttribute="centerX" secondItem="cOJ-vO-Rhk" secondAttribute="centerX" id="TzN-ZO-xtO"/>
+                            <constraint firstItem="jWI-mB-bzL" firstAttribute="bottom" secondItem="NtQ-ST-wRf" secondAttribute="top" id="Xfg-k9-xne"/>
                             <constraint firstItem="LtC-an-LOj" firstAttribute="centerX" secondItem="NtQ-ST-wRf" secondAttribute="centerX" id="fL1-u5-jrV"/>
                             <constraint firstItem="IhP-cI-GB6" firstAttribute="top" secondItem="CXn-GS-iGr" secondAttribute="bottom" constant="24" id="gG8-o5-ICI"/>
                             <constraint firstAttribute="bottom" secondItem="IhP-cI-GB6" secondAttribute="bottom" constant="20" symbolic="YES" id="kq7-MO-z0w"/>
+                            <constraint firstItem="jWI-mB-bzL" firstAttribute="leading" secondItem="cOJ-vO-Rhk" secondAttribute="leading" id="onY-at-BtT"/>
                             <constraint firstItem="LtC-an-LOj" firstAttribute="centerY" secondItem="cOJ-vO-Rhk" secondAttribute="centerY" id="qK1-Re-SkK"/>
                             <constraint firstItem="LtC-an-LOj" firstAttribute="centerX" secondItem="CXn-GS-iGr" secondAttribute="centerX" id="sjx-sc-YYQ"/>
                         </constraints>
@@ -207,11 +215,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KBS-Xb-wfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564.375" y="121.47887323943662"/>
+            <point key="canvasLocation" x="551.25" y="144.71830985915494"/>
         </scene>
     </scenes>
     <resources>
         <image name="exit-icon.png" width="354" height="355"/>
+        <image name="masteroft-logo-original copy.png" width="377" height="122"/>
         <image name="undo-icon.png" width="354" height="355"/>
     </resources>
 </document>

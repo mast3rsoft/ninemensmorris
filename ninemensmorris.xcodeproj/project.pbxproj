@@ -14,9 +14,9 @@
 		1902EA2D1E309CE300507E18 /* exit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA2B1E309CE300507E18 /* exit-icon.png */; };
 		1902EA321E31469E00507E18 /* undo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA311E31469E00507E18 /* undo-icon.png */; };
 		1902EA331E31469E00507E18 /* undo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA311E31469E00507E18 /* undo-icon.png */; };
-		1902EA381E33684000507E18 /* mastersoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA371E33684000507E18 /* mastersoft-logo.png */; };
-		1902EA391E33684000507E18 /* mastersoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1902EA371E33684000507E18 /* mastersoft-logo.png */; };
 		191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 191A54561E26AA79006F1552 /* exit-icon-3.png */; };
+		1940390E1E34AABA00C26B7A /* masteroft-logo-original copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1940390D1E34AABA00C26B7A /* masteroft-logo-original copy.png */; };
+		1940390F1E34AABA00C26B7A /* masteroft-logo-original copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1940390D1E34AABA00C26B7A /* masteroft-logo-original copy.png */; };
 		1940F03E1E26074C00CCED06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940F03D1E26074C00CCED06 /* FirstViewController.swift */; };
 		195306A81E2B7BEF00EE81B0 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */; };
 		195E730F1E28AB4E005046AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E730E1E28AB4E005046AA /* AppDelegate.swift */; };
@@ -68,8 +68,8 @@
 		1902EA281E309C8300507E18 /* exit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-icon.png"; path = "../../../Pictures/exit-icon.png"; sourceTree = "<group>"; };
 		1902EA2B1E309CE300507E18 /* exit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit-icon.png"; sourceTree = "<group>"; };
 		1902EA311E31469E00507E18 /* undo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo-icon.png"; sourceTree = "<group>"; };
-		1902EA371E33684000507E18 /* mastersoft-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastersoft-logo.png"; sourceTree = "<group>"; };
 		191A54561E26AA79006F1552 /* exit-icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-icon-3.png"; path = "../../../Pictures/exit-icon-3.png"; sourceTree = "<group>"; };
+		1940390D1E34AABA00C26B7A /* masteroft-logo-original copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masteroft-logo-original copy.png"; sourceTree = "<group>"; };
 		1940F03D1E26074C00CCED06 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		195306A71E2B7BEF00EE81B0 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		195E730C1E28AB4E005046AA /* ninemensmorristouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninemensmorristouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,9 +146,9 @@
 			children = (
 				1902EA2B1E309CE300507E18 /* exit-icon.png */,
 				1902EA311E31469E00507E18 /* undo-icon.png */,
+				1940390D1E34AABA00C26B7A /* masteroft-logo-original copy.png */,
 				1902EA281E309C8300507E18 /* exit-icon.png */,
 				191A54561E26AA79006F1552 /* exit-icon-3.png */,
-				1902EA371E33684000507E18 /* mastersoft-logo.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -400,9 +400,9 @@
 				195E73191E28AB4E005046AA /* LaunchScreen.storyboard in Resources */,
 				195E73161E28AB4E005046AA /* Assets.xcassets in Resources */,
 				1902EA2A1E309C8300507E18 /* exit-icon.png in Resources */,
-				1902EA391E33684000507E18 /* mastersoft-logo.png in Resources */,
 				1902E9571E30024B00507E18 /* exit-icon-3.png in Resources */,
 				1902EA331E31469E00507E18 /* undo-icon.png in Resources */,
+				1940390F1E34AABA00C26B7A /* masteroft-logo-original copy.png in Resources */,
 				195E73141E28AB4E005046AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,9 +429,9 @@
 				196DE15C1E203E9D0030F899 /* TODO in Resources */,
 				2332EAEA1D852BB9000B1AB1 /* Assets.xcassets in Resources */,
 				1902EA291E309C8300507E18 /* exit-icon.png in Resources */,
-				1902EA381E33684000507E18 /* mastersoft-logo.png in Resources */,
 				191A54571E26AA79006F1552 /* exit-icon-3.png in Resources */,
 				1902EA321E31469E00507E18 /* undo-icon.png in Resources */,
+				1940390E1E34AABA00C26B7A /* masteroft-logo-original copy.png in Resources */,
 				2332EAED1D852BB9000B1AB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
